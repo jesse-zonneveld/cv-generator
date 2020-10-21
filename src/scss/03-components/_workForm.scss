@@ -1,0 +1,26 @@
+.work-form-container {
+    background-color: rgb(208, 231, 198);
+    width: 300px;
+
+    .work-form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .work-form-header {
+            align-self: center;
+        }
+
+        .dates-holder {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+        }
+
+        label {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+    }
+}

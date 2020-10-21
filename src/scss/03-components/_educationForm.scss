@@ -1,0 +1,25 @@
+.education-form-container {
+    background-color: rgb(255, 155, 155);
+    width: 300px;
+
+    .education-form {
+        display: flex;
+        flex-direction: column;
+
+        .education-form-header {
+            align-self: center;
+        }
+
+        .dates-holder {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+        }
+
+        label {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+    }
+}

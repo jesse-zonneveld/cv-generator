@@ -1,0 +1,19 @@
+.personal-form-container {
+    background-color: rgb(170, 141, 141);
+    width: 300px;
+
+    .personal-form {
+        display: flex;
+        flex-direction: column;
+
+        .personal-form-header {
+            align-self: center;
+        }
+
+        label {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+    }
+}

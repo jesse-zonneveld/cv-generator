@@ -1,0 +1,18 @@
+.cv-container {
+    background-color: rgb(169, 193, 209);
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+    .cv {
+        display: flex;
+        flex-direction: column;
+
+        .cv-title {
+            align-self: center;
+        }
+
+        & > div {
+            border-bottom: 2px solid black;
+        }
+    }
+}

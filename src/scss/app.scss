@@ -1,0 +1,13 @@
+@import "./02-base/layout";
+@import "./02-base/reset";
+@import "./02-base/normalize";
+
+.forms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > div {
+        margin: 20px;
+    }
+}
